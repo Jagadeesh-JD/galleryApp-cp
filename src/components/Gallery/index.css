@@ -1,0 +1,36 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.big-image {
+  margin: 50px;
+  padding: 10px;
+  height: 60vh;
+  width: 70%;
+  border-radius: 5px;
+}
+.header {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+  font-size: 25px;
+}
+.para {
+  font-family: 'Roboto';
+  font-weight: lighter;
+  color: #64748b;
+  font-size: 15px;
+}
+.imgs-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+}
